@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header">
+        <nav class="nav m-auto d-flex justify-content-between align-items-center">
+            <div class="logo d-flex justify-content-center align-items-center gap-3 ">
+                <div class="icon">
+                    <i class="fa-solid fa-utensils text-white"></i>
+                </div>
+                <div class="brand">
+                    <h1>What's For Dinner</h1>
+                    <p>Your daily meal inspiration</p>
+                </div>
+            </div>
+            <div class="menu d-flex justify-content-between gap-3">
+                <div class="icons d-flex justify-content-between gap-3 align-items-center">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <i class="fa-solid fa-clock-rotate-left "></i>
+
+                    <i class="fa-solid fa-gear "></i>
+                </div>
+                <div class="img">
+                    <img src="images/avatar-4.jpg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <section>
+        <div class="container bg-white shadow-lg p-0 rounded-4 " id="content">
+            <div class="row vh-100">
+                <div class="col-md-5">
+                    <div class="box-img h-100 position-relative">
+                        <img src="images/French Onion Soup.jfif" alt="" class="w-100 h-100 object-fit-cover">
+                        <div class="rate bg-white position-absolute rounded-pill p-2">
+                            <i class="fa-solid fa-star"></i> <span class="fw-bolder me-1">4.7</span>(412 reviews)
+                        </div>
+                        <div class="time position-absolute w-75 mx-auto">
+                            <div class="row bg-white text-center rounded-4 p-3">
+                                <div class="col-md-4 ">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p>Prep Time</p>
+                                    <span class="fw-bolder">15 min</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="fa-solid fa-fire-burner "></i>
+                                    <p>Cook Time</p>
+                                    <span class="fw-bolder">240 min</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="fa-solid fa-users"></i>
+                                    <p>Servings</p>
+                                    <span class="fw-bolder">4 people</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 h-100 overflow-y-auto">
+                    <div class="details py-4">
+                        <span class="rounded-pill p-1 px-3 ">Easy</span>
+                        <span class="rounded-pill p-1 px-3">Italian</span>
+                    </div>
+                    <div class="row justify-content-evenly  ms-3">
+                        <div class="col-md-7">
+                            <div class="content-box">
+                                <h2>BBQ Pulled Pork</h2>
+                                <p class="text-muted">Slow-cooked tender pork in smoky barbecue sauce</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5  d-flex justify-content-end pe-5 ">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                       
+                    </div>
+                    
+
+                    <ul class=" my-4 nav nav-pills justify-content-center gap-4 mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Ingredients" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"><i class="fa-solid fa-list-check"></i>Ingredients</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">
+                                <i class="fa-solid fa-book-open"></i>Instructions</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Nutrition" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false"><i class="fa-solid fa-chart-pie"></i>Nutrition</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Chef" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false"><i class="fa-solid fa-chart-pie"></i>Chef's Tips</button>
+                        </li>
+
+                    </ul>
+                    <hr>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-Ingredients" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="nav-content">
+                                <ul type="1" class="list-unstyled d-flex flex-column gap-3">
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane color fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="nav-content-2">
+                                <ul type="1" class="list-unstyled d-flex flex-column gap-3">
+
+
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Nutrition" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            <div class="boxes d-flex justify-content-between flex-wrap">
+                                <div class="box-1 box">
+                                    <div>
+                                        <i class="fa-solid fa-fire text-orange-600"></i>
+                                        <p>Calories</p>
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+                                <div class="box-2 box">
+                                    <div>
+                                        <i class="fa-solid fa-dumbbell text-blue-600"></i>
+                                        <p>Calories</p>
+
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+                                <div class="box-3 box">
+                                    <div>
+                                        <i class="fa-solid fa-wheat-awn text-yellow-600"></i>
+                                        <p>Calories</p>
+
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+                                <div class="box-4 box">
+                                    <div>
+                                        <i class="fa-solid fa-droplet text-red-600"></i>
+                                        <p>Calories</p>
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+                                <div class="box-5 box">
+                                    <div>
+                                        <i class="fa-solid fa-seedling text-green-600"></i>
+                                        <p>Calories</p>
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+                                <div class="box-6 box">
+                                    <div>
+                                        <i class="fa-solid fa-cube text-pink-600"></i>
+                                        <p>Calories</p>
+                                    </div>
+
+                                    <span>620 kcal</span>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Chef" role="tabpanel" aria-labelledby="pills-contact-tab"
+                            tabindex="0">
+                            <div class="content-boxes">
+                                <div class="box-item-1 box-color">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Use pork shoulder for best results - it stays moist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="box-button">
+                        <button onclick="ChangeState()"><i class="fa-solid fa-rotate mr-1 md:mr-2"></i>Try Another
+                            Recipe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
